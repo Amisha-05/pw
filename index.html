@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="./assests/css/index.css">
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--external css own carousel cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!--- #MAIN-->
+  <main>
+    <div class="loader">
+      Loading...
+    </div>
+    <!--- #SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+<img src="./assests/images/DSC_5803 .....jpg" alt="Amisha Shahi" width="80" >
+
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Amisha Shahi">Amisha Shahi</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn id="resumeButtonSidebar">
+          <span>Resume</span>
+        </button>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ami@example.com" class="contact-link">shahiamisha809@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:" class="contact-link">+91 8591238733</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="3 july">July 03, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai,Maharashtra</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <!--  - #main-content-->
+
+    <div class="main-content">
+      <!--- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button id="resumeButton" class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          
+        
+        </ul>
+      </nav>
+
+      <!-- - #ABOUT -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a TE IT student pursuing a BE degree from Thadomal Shahani Engineering College.
+             I am  Currently focused on web development, I possess proficient skills in HTML, CSS, JavaScript, and React, and I am also gaining familiarity with backend development. Additionally, I have a strong command of C++ and a deep passion for web design.
+  
+          </p>
+
+          <p>
+            Seeking an internship, I prioritize gaining hands-on experience and understanding real-life company operations. I am driven 
+            to enhance my existing skills and acquire new ones, believing in their long-term benefit for my career growth.
+          </p>
+        </section>
+
+
+        <!--- service-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/student.jpeg"
+                alt="design icon" width="80" height="100"  loading="lazy">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Student</h4>
+
+                <p class="service-item-text">
+                  I M TE IT engineering Student From Thadomal Shahani engineering College ,Bandra.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/web dev.jpg" alt="Web development icon" width="80" loading="lazy" >
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I specialize in frontend and am transitioning to backend development.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/free lancer.jpeg" alt="mobile app icon" width="100"  loading="lazy">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Freelancer</h4>
+
+                <p class="service-item-text">
+                  I'm a beginner in freelancing with one completed task
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assests/images/volunteer.png" alt="camera icon" width="40"  loading="lazy">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Volunteer</h4>
+
+                <p class="service-item-text">
+                  I have completed over 120 hours of social service in NSS at TSEC.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - owl caraousels
+        -->
+        <div class="container">
+          <h1 class="card"> MyProjects</h1>
+          <div class="row">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body">
+                    <img src="./assests/images/dabbawala.png" alt="dabbawala"  loading="lazy">
+                    <h1 class="text-center">Aapla Dabbawala</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body">
+                    <img src="./assests/images/nurturing land.png" alt="nurtuing land"  loading="lazy">
+                    <h1 class="text-center">Nuturing land</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body">
+                    <img src="./assests/images/2024-01-12.png" alt="menu"  loading="lazy">
+                    <h1 class="text-center">Menu</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body">
+                    <img src="assests/images/2024-01-12 (1).png" alt="expense tracker"  loading="lazy">
+                    <h1 class="text-center">expense tracker</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body"> 
+                    <img src="./assests/images/web dev.jpg" alt="dummy" loading="lazy">
+                    <h1 class="text-center">DUMMY</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="cardinside">
+                  <div class="card-body">
+                    <img src="./assests/images/student.jpeg" alt="dummy"  loading="lazy">
+                    <h1 class="text-center">Dummy</h1>
+                  </div>
+                </div>
+              </div>
+         
+            </div>
+          </div>
+        </div>
+     
+  </main>
+  <!--- custom js link-->
+  <script src="index.js"></script>
+
+  <!-- - ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <!--Jquery cdn links-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--JS owl caraousel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+  </script>
+</body>
+
+</html>
