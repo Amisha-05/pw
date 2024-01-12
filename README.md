@@ -25,6 +25,14 @@ I am Amisha Shahi, a web developer currently pursuing a BE degree from Thadomal 
 - Services section with details about my skills and experiences
 - Projects section showcasing a carousel of project images
 - Contact information with social links
+## Technologies
+- HTML5
+- CSS3
+- JavaScript
+- Owl Carousel for project showcase
+- Lazy loading for optimized image loading
+- Responsive design for compatibility across various devices
+- Page loader for a smooth user experience
 
 ## Getting Started
 
